@@ -492,6 +492,7 @@ tidy_genomic_data <- function(
       parallel.core = parallel.core,
       verbose = verbose,
       whitelist.markers = whitelist.markers,
+      filter.common.markers = filter.common.markers,
       filename = NULL,
       vcf.metadata = vcf.metadata,
       vcf.stats = vcf.stats,
